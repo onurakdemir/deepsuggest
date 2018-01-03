@@ -31,6 +31,9 @@ $ python app.py or python manage.py runserver
 
 
 ### Run-heroku
-  swith to env
-  export APP_SETTINGS="config.DevelopmentConfig"
-  export DATABASE_URL="postgres://sid:sid12345@localhost:5432/test_dev"
+
+```sh
+$ swith to env
+$ export APP_SETTINGS="config.DevelopmentConfig"
+$ export DATABASE_URL="postgres://sid:sid12345@localhost:5432/test_dev"
+```
